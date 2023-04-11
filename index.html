@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+    </style>
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div class="calculator-wrapper">
+        <div class="calculator">
+
+            <div class="calculator__top">
+                <div class="calculator__top__settings">
+
+                    <div class="calculator__top__clrScheme">
+                        <div class="calculator__top__clrScheme-active"></div>
+                        <div><img id="sun"src="img/sun_active.png" alt="sun"></div>
+                        <div><img id="moon"src="img/moon_unactive.png" alt="moon"></div>
+                    </div>
+                    <img class="calculator__top_hist" src="img/History_gray.png" alt="moon">
+                    
+                </div>
+
+                <div class="calculator__top__numbers">
+
+                    <div class="calculator__top__result__equation">
+                        1.000 × 2 + 2 × 2 
+                    </div>
+                    <div class="calculator__top__result__wrapper">
+                        <div class="equalSign">=</div>
+                        <div class="calculator__top__res">2004</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="calculator__bottom">
+                <div class="bg">
+                    
+                </div>
+                
+                <div class="calculator__bottom__keyboard">
+
+                    <div class="calculator__bottom__keys">
+                        <div class="calculator__bottom__options">
+                            <button id="AC" class="clear">AC</button>
+                            <button id="+/-" class="signBefore">+ / -</button>
+                            <button id="%" class="remainder">%</button>
+                        </div>
+
+                        <button id="1">1</button>
+                        <button id="2">2</button>
+                        <button id="3">3</button>
+                        <button id="4">4</button>
+                        <button id="5">5</button>
+                        <button id="6">6</button>
+                        <button id="7">7</button>
+                        <button id="8">8</button>
+                        <button id="9">9</button>
+                        <button id=".">.</button>
+                        <button id="0">0</button>
+                        <button id="00">00</button>
+                    </div>
+
+                    <div class="calculator__bottom__sideOptions">
+                        <button id=" ÷ ">÷</button>
+                        <button id=" × ">×</button>
+                        <button id=" - ">-</button>
+                        <button id=" + ">+</button>
+                        <button id="=" class="rounded">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
